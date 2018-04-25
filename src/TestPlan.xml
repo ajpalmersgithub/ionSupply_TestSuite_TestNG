@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BasicFlow">
+   <test name="launchHomePage">
+		<classes>
+			<class name="ionSupply_TestSuite_TestNG.BasicAcceptanceTest" />
+		</classes>
+	</test>
+	 <test name="UpdateDescription">
+		<classes>
+			<class name="ionSupply_TestSuite_TestNG.Items" />
+		</classes>
+	</test>
+</suite>

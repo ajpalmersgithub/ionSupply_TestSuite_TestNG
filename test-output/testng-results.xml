@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BasicFlow" duration-ms="7364" started-at="2018-04-16T21:20:27Z" finished-at="2018-04-16T21:20:34Z">
+    <groups>
+    </groups>
+    <test name="launchHomePage" duration-ms="652" started-at="2018-04-16T21:20:27Z" finished-at="2018-04-16T21:20:27Z">
+      <class name="ionSupply_TestSuite_TestNG.BasicAcceptanceTest">
+        <test-method status="PASS" signature="launchHomePage()[pri:0, instance:ionSupply_TestSuite_TestNG.BasicAcceptanceTest@6a41eaa2]" name="launchHomePage" duration-ms="624" started-at="2018-04-16T21:20:27Z" finished-at="2018-04-16T21:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+      </class> <!-- ionSupply_TestSuite_TestNG.BasicAcceptanceTest -->
+    </test> <!-- launchHomePage -->
+    <test name="UpdateDescription" duration-ms="6570" started-at="2018-04-16T21:20:28Z" finished-at="2018-04-16T21:20:34Z">
+      <class name="ionSupply_TestSuite_TestNG.BasicAcceptanceTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:ionSupply_TestSuite_TestNG.BasicAcceptanceTest@6a41eaa2]" name="beforeSuite" is-config="true" duration-ms="12016" started-at="2018-04-16T21:20:09Z" finished-at="2018-04-16T21:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:ionSupply_TestSuite_TestNG.Items@3fee9989]" name="beforeSuite" is-config="true" duration-ms="5827" started-at="2018-04-16T21:20:21Z" finished-at="2018-04-16T21:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:ionSupply_TestSuite_TestNG.BasicAcceptanceTest@6a41eaa2]" name="afterSuite" is-config="true" duration-ms="762" started-at="2018-04-16T21:20:34Z" finished-at="2018-04-16T21:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:ionSupply_TestSuite_TestNG.Items@3fee9989]" name="afterSuite" is-config="true" duration-ms="480" started-at="2018-04-16T21:20:35Z" finished-at="2018-04-16T21:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- ionSupply_TestSuite_TestNG.BasicAcceptanceTest -->
+      <class name="ionSupply_TestSuite_TestNG.Items">
+        <test-method status="PASS" signature="UpdateDescription(java.lang.String)[pri:0, instance:ionSupply_TestSuite_TestNG.Items@3fee9989]" name="UpdateDescription" duration-ms="2646" started-at="2018-04-16T21:20:29Z" data-provider="Items_dp" finished-at="2018-04-16T21:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Description,+@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateDescription -->
+        <test-method status="PASS" signature="UpdateDescription(java.lang.String)[pri:0, instance:ionSupply_TestSuite_TestNG.Items@3fee9989]" name="UpdateDescription" duration-ms="2482" started-at="2018-04-16T21:20:32Z" data-provider="Items_dp" finished-at="2018-04-16T21:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Batch of 100 uncooked pie crusts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateDescription -->
+      </class> <!-- ionSupply_TestSuite_TestNG.Items -->
+    </test> <!-- UpdateDescription -->
+  </suite> <!-- BasicFlow -->
+</testng-results>

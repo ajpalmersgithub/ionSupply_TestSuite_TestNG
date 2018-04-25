@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BasicFlow">
+              <span class="suite-name border-passed">BasicFlow</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BasicFlow">
+                    <span>C:\Users\adamp_000\eclipse-workspace\ionSupply_TestSuite_TestNG\src\TestPlan.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BasicFlow">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BasicFlow">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BasicFlow">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BasicFlow">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BasicFlow">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BasicFlow">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BasicFlow" class="hide-methods passed suite-BasicFlow"> (hide)</a> <!-- hide-methods passed suite-BasicFlow -->
+                      <a href="#" panel-name="suite-BasicFlow" class="show-methods passed suite-BasicFlow"> (show)</a> <!-- show-methods passed suite-BasicFlow -->
+                    </span>
+                    <div class="method-list-content passed suite-BasicFlow">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BasicFlow" title="ionSupply_TestSuite_TestNG.Items" hash-for-method="UpdateDescription(Test Description,+@)">UpdateDescription(Test Description,+@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BasicFlow" title="ionSupply_TestSuite_TestNG.Items" hash-for-method="UpdateDescription(Batch of 100 uncooked pie crusts)">UpdateDescription(Batch of 100 uncooked pie crusts)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BasicFlow" title="ionSupply_TestSuite_TestNG.BasicAcceptanceTest" hash-for-method="launchHomePage">launchHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BasicFlow -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BasicFlow" class="panel BasicFlow">
+          <div class="suite-BasicFlow-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ionSupply_TestSuite_TestNG.BasicAcceptanceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchHomePage">
+                  </a> <!-- launchHomePage -->
+                  <span class="method-name">launchHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BasicFlow-class-passed -->
+          <div class="suite-BasicFlow-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ionSupply_TestSuite_TestNG.Items</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateDescription(Test Description,+@)">
+                  </a> <!-- UpdateDescription(Test Description,+@) -->
+                  <span class="method-name">UpdateDescription</span>
+                  <span class="parameters">(Test Description,+@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateDescription(Batch of 100 uncooked pie crusts)">
+                  </a> <!-- UpdateDescription(Batch of 100 uncooked pie crusts) -->
+                  <span class="method-name">UpdateDescription</span>
+                  <span class="parameters">(Batch of 100 uncooked pie crusts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BasicFlow-class-passed -->
+        </div> <!-- panel BasicFlow -->
+        <div panel-name="test-xml-BasicFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\adamp_000\eclipse-workspace\ionSupply_TestSuite_TestNG\src\TestPlan.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BasicFlow&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;launchHomePage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ionSupply_TestSuite_TestNG.BasicAcceptanceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- launchHomePage --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UpdateDescription&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ionSupply_TestSuite_TestNG.Items&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UpdateDescription --&gt;
+&lt;/suite&gt; &lt;!-- BasicFlow --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BasicFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BasicFlow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">launchHomePage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UpdateDescription (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BasicFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BasicFlow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BasicFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BasicFlow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BasicFlow');
+function tableData_BasicFlow() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UpdateDescription')
+data.setCell(0, 2, 'ionSupply_TestSuite_TestNG.Items')
+data.setCell(0, 3, 2646);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'UpdateDescription')
+data.setCell(1, 2, 'ionSupply_TestSuite_TestNG.Items')
+data.setCell(1, 3, 2482);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'launchHomePage')
+data.setCell(2, 2, 'ionSupply_TestSuite_TestNG.BasicAcceptanceTest')
+data.setCell(2, 3, 624);
+window.suiteTableData['BasicFlow']= { tableData: data, tableDiv: 'times-div-BasicFlow'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-BasicFlow">
+              </div> <!-- times-div-BasicFlow -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BasicFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BasicFlow</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BasicFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BasicFlow" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ionSupply_TestSuite_TestNG.BasicAcceptanceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ionSupply_TestSuite_TestNG.Items</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">12018 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ionSupply_TestSuite_TestNG.BasicAcceptanceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchHomePage</span>
+                <span class="method-start">17869 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ionSupply_TestSuite_TestNG.Items</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UpdateDescription(Test Description,+@)</span>
+                <span class="method-start">20077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdateDescription(Batch of 100 uncooked pie crusts)</span>
+                <span class="method-start">22725 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ionSupply_TestSuite_TestNG.BasicAcceptanceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">25221 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ionSupply_TestSuite_TestNG.Items</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">25983 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
