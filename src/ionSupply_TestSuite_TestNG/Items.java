@@ -51,8 +51,18 @@ public class Items {
   @DataProvider
   public Object[][]Items_dp() throws Exception {
 	  return new Object[][] {
-	  new Object[] { ExcelUtils.getCellData(3, 5)},
-      new Object[] { ExcelUtils.getCellData(3, 6)},	
+		  new Object[] { ExcelUtils.getCellData(0,0)},
+		  new Object[] { ExcelUtils.getCellData(1,0)},
+		  new Object[] { ExcelUtils.getCellData(2,0)},
+		  new Object[] { ExcelUtils.getCellData(3,0)},
+		  new Object[] { ExcelUtils.getCellData(4,0)},
+		  new Object[] { ExcelUtils.getCellData(5,0)},
+		  new Object[] { ExcelUtils.getCellData(6,0)},
+		  new Object[] { ExcelUtils.getCellData(7,0)},
+		  new Object[] { ExcelUtils.getCellData(8,0)},
+		  new Object[] { ExcelUtils.getCellData(9,0)},
+		  new Object[] { ExcelUtils.getCellData(10,0)},
+	
     };
   }
 }
